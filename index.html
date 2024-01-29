@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- REMIXICON -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Portofolio Ahmad Fauzan</title>
+  </head>
+  <body>
+    <header class="profile container">
+      <!-- theme button -->
+      <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+      <div class="profile_container grid">
+        <div class="profile_data">
+          <div class="profile_border">
+            <div class="profile_perfil">
+              <img src="assets/img/raja1.png" alt="foto gw" />
+            </div>
+          </div>
+          <h2 class="profile_name">Ahmad Fauzan</h2>
+          <h2 class="profile_profession">Front End Developer</h2>
+          <ul class="profile_social">
+            <a href="https://www.instagram.com/ahmddfauzaan/" target="_blank" class="profile_social-link">
+              <i class="ri-instagram-line"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/ahmdfauzzan/" target="_blank" class="profile_social-link">
+              <i class="ri-linkedin-line"></i>
+            </a>
+            <a href="https://github.com/ahmdfauzzan" target="_blank" class="profile_social-link">
+              <i class="ri-github-line"></i>
+            </a>
+          </ul>
+        </div>
+        <!-- <div class="profile_info grid">
+          <div class="profile_info-group">
+            <h3 class="profile_info-number">7</h3>
+            <p class="profile_info-description">
+              Years of <br />
+              work
+            </p>
+          </div>
+          <div class="profile_info-group">
+            <h3 class="profile_info-number">+62</h3>
+            <p class="profile_info-description">
+              Completed <br />
+              projects
+            </p>
+          </div>
+          <div class="profile_info-group">
+            <h3 class="profile_info-number">96</h3>
+            <p class="profile_info-description">
+              Satisfied <br />
+              customers
+            </p>
+          </div>
+        </div> -->
+        <div class="profile_buttons">
+          <a download="" href="" class="button"> Download CV <i class="ri-download-line"></i> </a>
+
+          <div class="profile_buttons-small">
+            <a href="https://api.whatsapp.com/send?phone=6281273918470&text=Hello!" target="_blank" class="button button_small button_gray">
+              <i class="ri-whatsapp-line"></i>
+            </a>
+            <a href="https://m.me/ahmdfauzzan" target="_blank" class="button button_small button_gray">
+              <i class="ri-messenger-line"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="filters container">
+        <ul class="filters_content">
+          <button class="filters_button filter-tab-active" data-target="#projects">Projects</button>
+          <button class="filters_button" data-target="#skills">Skills</button>
+        </ul>
+
+        <div class="filters_sections">
+          <!-- projects -->
+          <div class="projects_content grid filters_active" data-content id="projects">
+            <article class="projects_card">
+              <img src="assets/img/todolist.png" alt="Todo List Web" class="projects_img" />
+              <div class="projects_modal">
+                <div>
+                  <span class="projects_subtitle">Web</span>
+                  <h3 class="projects_title">Todo List</h3>
+                  <a href="https://final-chapter3.vercel.app/" target="_blank" class="projects_button button button_small">
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projects_card">
+              <img src="assets/img/sewa.png" alt="Sewa Mobil Web" class="projects_img" />
+              <div class="projects_modal">
+                <div>
+                  <span class="projects_subtitle">Web</span>
+                  <h3 class="projects_title">Sewa Mobil Binar</h3>
+                  <a href="https://final-chapter1-35nt40rp1-ahmdfauzzan.vercel.app/" target="_blank" class="projects_button button button_small">
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projects_card">
+              <img src="assets/img/movielist.png" alt="Movie Search Web" class="projects_img" />
+              <div class="projects_modal">
+                <div>
+                  <span class="projects_subtitle">Web</span>
+                  <h3 class="projects_title">Movie Search Web</h3>
+                  <a href="https://final-chapter6.vercel.app/" target="_blank" class="projects_button button button_small">
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="projects_card">
+              <img src="assets/img/raja1.png" alt="Kelas Belajar Online" class="projects_img" />
+              <div class="projects_modal">
+                <div>
+                  <span class="projects_subtitle">Web</span>
+                  <h3 class="projects_title">Kelas Belajar Online</h3>
+                  <a href="" target="_blank" class="projects_button button button_small">
+                    <i class="ri-link"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- skills -->
+          <div class="skills_content grid" data-content id="skills">
+            <div class="skills_area">
+              <h3 class="skills_title">Frontend</h3>
+
+              <div class="skills_box">
+                <div class="skills_group">
+                  <div class="skills_data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills_name">HTML</h3>
+                      <span class="skills_level">Advanced</span>
+                    </div>
+                  </div>
+
+                  <div class="skills_data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills_name">CSS</h3>
+                      <span class="skills_level">Advanced</span>
+                    </div>
+                  </div>
+
+                  <div class="skills_data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills_name">Javascript</h3>
+                      <span class="skills_level">Intermediate</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="skills_group">
+                  <div class="skills_data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills_name">React</h3>
+                      <span class="skills_level">Intermediate</span>
+                    </div>
+                  </div>
+
+                  <div class="skills_data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills_name">Tailwind</h3>
+                      <span class="skills_level">Intermediate</span>
+                    </div>
+                  </div>
+
+                  <div class="skills_data">
+                    <i class="ri-checkbox-circle-line"></i>
+
+                    <div>
+                      <h3 class="skills_name">Git</h3>
+                      <span class="skills_level">Intermediate</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer container">
+      <span class="footer_copy">&#169; Ahmad Fauzan. All rigths reserved</span>
+    </footer>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
